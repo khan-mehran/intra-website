@@ -1,0 +1,7 @@
+@font-face {
+    font-family: 'HelveticaNeue';
+    src: url('../font/Neue_Helvetica_Std_Complete_Family/HelveticaNeue.ttc') format('ttc'),
+         url('../font/Neue_Helvetica_Std_Complete_Family/HelveticaNeue.ttc') format('ttf'),
+         url('../font/Neue_Helvetica_Std_Complete_Family/HelveticaNeue.ttc') format('truetype');
+    /* Additional font properties */
+  }

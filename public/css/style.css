@@ -1,0 +1,235 @@
+@import url('../css/font.css');
+html,body{
+    overflow-x: hidden;
+    margin: 0;
+}
+.logo{
+    width: 15%;
+}
+.box {
+    border-radius: 2px;
+    position: absolute;
+    top: 50%;
+    right: 10%;
+    /* left: 50%; */
+    transform: translate(-50%, -50%);
+    /* width: 400px;
+    height: 400px;
+    background: #3faf82; */
+    box-shadow: 1px 2px 10px 0px rgba(0,0,0,0.3);
+  }
+  
+  .btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80px;
+    cursor: pointer;
+  }
+  
+  span {
+    display: block;
+    width: 100%;
+    box-shadow: 0 2px 10px 0 rgba(0,0,0,0.3);
+    border-radius: 3px;
+    height: 4px;
+    background: #fff;
+    transition: all .3s;
+    position: relative;
+  }
+  
+  span + span {
+    margin-top: 14px;
+  }
+  
+  .active span:nth-child(1) {
+    animation: ease .7s top forwards;
+  }
+  
+  .not-active span:nth-child(1) {
+    animation: ease .7s top-2 forwards;
+  }
+  
+  .active span:nth-child(2) {
+    animation: ease .7s scaled forwards;
+  }
+  
+  .not-active span:nth-child(2) {
+    animation: ease .7s scaled-2 forwards;
+  }
+  
+  .active span:nth-child(3) {
+    animation: ease .7s bottom forwards;
+  }
+  
+  .not-active span:nth-child(3) {
+    animation: ease .7s bottom-2 forwards;
+  }
+  
+  @keyframes top {
+    0% {
+      top: 0;
+      transform: rotate(0);
+    }
+    50% {
+      top: 22px;
+      transform: rotate(0);
+    }
+    100% {
+      top: 22px;
+      transform: rotate(45deg);
+    }
+  }
+  
+  @keyframes top-2 {
+    0% {
+      top: 22px;
+      transform: rotate(45deg);
+    }
+    50% {
+      top: 22px;
+      transform: rotate(0deg);
+    }
+    100% {
+      top: 0;
+      transform: rotate(0deg);
+    }
+  }
+  
+  @keyframes bottom {
+    0% {
+      bottom: 0;
+      transform: rotate(0);
+    }
+    50% {
+      bottom: 22px;
+      transform: rotate(0);
+    }
+    100% {
+      bottom: 22px;
+      transform: rotate(135deg);
+    }
+  }
+  
+  @keyframes bottom-2 {
+    0% {
+      bottom: 22px;
+      transform: rotate(135deg);
+    }
+    50% {
+      bottom: 22px;
+      transform: rotate(0);
+    }
+    100% {
+      bottom: 0;
+      transform: rotate(0);
+    }
+  }
+  
+  @keyframes scaled {
+    50% {
+      transform: scale(0);
+    }
+    100% {
+      transform: scale(0);
+    }
+  }
+  
+  @keyframes scaled-2 {
+    0% {
+      transform: scale(0);
+    }
+    50% {
+      transform: scale(0);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+.menu{
+    position: absolute;
+    top: 10px;
+    z-index: 3;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bg-left {
+    background-image: url('/images/Header-bg.png');
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: contain;
+    width: 100%;
+    height: 800px;
+    /* position: relative; */
+    z-index: 2;
+  }
+  .right-img{
+    background-image: url('/images/Home-page.png');
+    position: absolute;
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: cover;
+    top: 3px;
+    right: 0;
+    width: 66rem !important;
+    height: 795px;
+  }
+  /* about section */
+  .about {
+    background-color: #CCD0D1;
+  }
+  .vision-section{
+    background-color: #CCD0D1;
+  }
+  .vision-section p{
+    font-size: 12px;
+  }
+  .sub-heading{
+    color: #00a251;
+    font-size: 14px;
+    font-weight: bold;
+    }
+    .heading{
+        color: #263770;
+        font-weight: bold;
+    }
+    .green-border{
+        background-color: #00a251;
+        width: 25%;
+        /* color: #00a251 */
+    }
+    .blue-border{
+        background-color: #263770;
+        width: 35%;
+    }
+    .para{
+        font-weight: bolder;
+        font-size: 12px;
+        color: #6C6C6C;
+    }
+    .vision{
+        background-color: #263770;
+        color: #fff;
+    }
+    .mission{
+        background-color: #fff;
+        color: black;
+    }
+    .down-and-lang{
+        width: 37%;
+        position: absolute;
+        bottom: 30px;
+    }
+    .apply-now{
+        border: none;
+        background-color: #263770;
+        color: #fff;
+        padding: 10px 30px;
+        font-size: 12px;
+        font-weight: 600;
+        margin: 20px 0;
+    }
